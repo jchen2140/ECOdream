@@ -16,6 +16,9 @@
 		5DD5EB5026B9EFC300F74213 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DD5EB4E26B9EFC300F74213 /* LaunchScreen.storyboard */; };
 		5DD5EB5B26B9EFC300F74213 /* ECOdreamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD5EB5A26B9EFC300F74213 /* ECOdreamTests.swift */; };
 		5DD5EB6626B9EFC300F74213 /* ECOdreamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD5EB6526B9EFC300F74213 /* ECOdreamUITests.swift */; };
+		5DD5EB7426B9F13500F74213 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD5EB7326B9F13500F74213 /* SecondViewController.swift */; };
+		5DD5EB7626B9F1BD00F74213 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD5EB7526B9F1BD00F74213 /* ThirdViewController.swift */; };
+		5DD5EB7826B9F2B700F74213 /* Third(2)ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD5EB7726B9F2B700F74213 /* Third(2)ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		5DD5EB6126B9EFC300F74213 /* ECOdreamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ECOdreamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DD5EB6526B9EFC300F74213 /* ECOdreamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ECOdreamUITests.swift; sourceTree = "<group>"; };
 		5DD5EB6726B9EFC300F74213 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DD5EB7326B9F13500F74213 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		5DD5EB7526B9F1BD00F74213 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		5DD5EB7726B9F2B700F74213 /* Third(2)ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Third(2)ViewController.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,7 +110,10 @@
 				5DD5EB4026B9EFBB00F74213 /* AppDelegate.swift */,
 				5DD5EB4226B9EFBB00F74213 /* SceneDelegate.swift */,
 				5DD5EB4426B9EFBB00F74213 /* ViewController.swift */,
+				5DD5EB7326B9F13500F74213 /* SecondViewController.swift */,
+				5DD5EB7526B9F1BD00F74213 /* ThirdViewController.swift */,
 				5DD5EB4626B9EFBB00F74213 /* Main.storyboard */,
+				5DD5EB7726B9F2B700F74213 /* Third(2)ViewController.swift */,
 				5DD5EB4C26B9EFC300F74213 /* Assets.xcassets */,
 				5DD5EB4E26B9EFC300F74213 /* LaunchScreen.storyboard */,
 				5DD5EB5126B9EFC300F74213 /* Info.plist */,
@@ -264,7 +273,10 @@
 				5DD5EB4526B9EFBB00F74213 /* ViewController.swift in Sources */,
 				5DD5EB4B26B9EFBB00F74213 /* ECOdream.xcdatamodeld in Sources */,
 				5DD5EB4126B9EFBB00F74213 /* AppDelegate.swift in Sources */,
+				5DD5EB7426B9F13500F74213 /* SecondViewController.swift in Sources */,
+				5DD5EB7626B9F1BD00F74213 /* ThirdViewController.swift in Sources */,
 				5DD5EB4326B9EFBB00F74213 /* SceneDelegate.swift in Sources */,
+				5DD5EB7826B9F2B700F74213 /* Third(2)ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
