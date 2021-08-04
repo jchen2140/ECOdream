@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		550EF01026BB2E460041158C /* ChildFactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550EF00F26BB2E460041158C /* ChildFactViewController.swift */; };
+		550EF01226BB2F640041158C /* TeenFactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550EF01126BB2F640041158C /* TeenFactViewController.swift */; };
+		550EF01426BB302A0041158C /* AdultFactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550EF01326BB302A0041158C /* AdultFactsViewController.swift */; };
+		550EF01626BB33C20041158C /* BlogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550EF01526BB33C20041158C /* BlogViewController.swift */; };
 		5DA5859326BB1C44000739D9 /* AgeRangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA5859226BB1C44000739D9 /* AgeRangeViewController.swift */; };
 		5DA5859526BB1E3E000739D9 /* ChildDirectoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA5859426BB1E3E000739D9 /* ChildDirectoryViewController.swift */; };
 		5DA5859726BB1E60000739D9 /* TeenDirectoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA5859626BB1E60000739D9 /* TeenDirectoryViewController.swift */; };
@@ -40,6 +44,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		550EF00F26BB2E460041158C /* ChildFactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildFactViewController.swift; sourceTree = "<group>"; };
+		550EF01126BB2F640041158C /* TeenFactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeenFactViewController.swift; sourceTree = "<group>"; };
+		550EF01326BB302A0041158C /* AdultFactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdultFactsViewController.swift; sourceTree = "<group>"; };
+		550EF01526BB33C20041158C /* BlogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogViewController.swift; sourceTree = "<group>"; };
 		5DA5859226BB1C44000739D9 /* AgeRangeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeRangeViewController.swift; sourceTree = "<group>"; };
 		5DA5859426BB1E3E000739D9 /* ChildDirectoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildDirectoryViewController.swift; sourceTree = "<group>"; };
 		5DA5859626BB1E60000739D9 /* TeenDirectoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeenDirectoryViewController.swift; sourceTree = "<group>"; };
@@ -113,10 +121,14 @@
 				5DD5EB4226B9EFBB00F74213 /* SceneDelegate.swift */,
 				5DD5EB4426B9EFBB00F74213 /* ViewController.swift */,
 				5DD5EB4626B9EFBB00F74213 /* Main.storyboard */,
+				550EF01326BB302A0041158C /* AdultFactsViewController.swift */,
+				550EF01126BB2F640041158C /* TeenFactViewController.swift */,
 				5DA5859826BB1E80000739D9 /* AdultDirectoryViewController.swift */,
+				550EF01526BB33C20041158C /* BlogViewController.swift */,
 				5DA5859626BB1E60000739D9 /* TeenDirectoryViewController.swift */,
 				5DA5859426BB1E3E000739D9 /* ChildDirectoryViewController.swift */,
 				5DA5859226BB1C44000739D9 /* AgeRangeViewController.swift */,
+				550EF00F26BB2E460041158C /* ChildFactViewController.swift */,
 				5DD5EB4C26B9EFC300F74213 /* Assets.xcassets */,
 				5DD5EB4E26B9EFC300F74213 /* LaunchScreen.storyboard */,
 				5DD5EB5126B9EFC300F74213 /* Info.plist */,
@@ -275,12 +287,16 @@
 			files = (
 				5DD5EB4526B9EFBB00F74213 /* ViewController.swift in Sources */,
 				5DD5EB4B26B9EFBB00F74213 /* ECOdream.xcdatamodeld in Sources */,
+				550EF01626BB33C20041158C /* BlogViewController.swift in Sources */,
 				5DD5EB4126B9EFBB00F74213 /* AppDelegate.swift in Sources */,
 				5DA5859726BB1E60000739D9 /* TeenDirectoryViewController.swift in Sources */,
 				5DA5859526BB1E3E000739D9 /* ChildDirectoryViewController.swift in Sources */,
 				5DD5EB4326B9EFBB00F74213 /* SceneDelegate.swift in Sources */,
 				5DA5859326BB1C44000739D9 /* AgeRangeViewController.swift in Sources */,
+				550EF01426BB302A0041158C /* AdultFactsViewController.swift in Sources */,
 				5DA5859926BB1E80000739D9 /* AdultDirectoryViewController.swift in Sources */,
+				550EF01226BB2F640041158C /* TeenFactViewController.swift in Sources */,
+				550EF01026BB2E460041158C /* ChildFactViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
