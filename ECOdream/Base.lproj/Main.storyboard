@@ -24,21 +24,134 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U7C-3n-anK">
-                                <rect key="frame" x="150" y="606" width="124" height="42"/>
+                                <rect key="frame" x="145" y="603" width="124" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <state key="normal" title="Get Started"/>
+                                <connections>
+                                    <segue destination="SQZ-pc-QQv" kind="show" id="Zde-i2-gpB"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <connections>
+                        <segue destination="SQZ-pc-QQv" kind="show" id="nn3-N0-Gxq"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="18.840579710144929" y="75.669642857142847"/>
+            <point key="canvasLocation" x="106" y="76"/>
+        </scene>
+        <!--Age Range View Controller-->
+        <scene sceneID="KAZ-FU-zDQ">
+            <objects>
+                <viewController id="SQZ-pc-QQv" customClass="AgeRangeViewController" customModule="ECOdream" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0KE-wD-taN">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="amt-L9-Daa">
+                                <rect key="frame" x="179" y="172" width="59" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <state key="normal" title="Child"/>
+                                <connections>
+                                    <segue destination="6Rm-sN-TLk" kind="show" id="jZW-RO-sdm"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Select your age range" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aZv-3T-4KI">
+                                <rect key="frame" x="124" y="49" width="167" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d0k-Fe-kPM">
+                                <rect key="frame" x="192" y="333" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="htP-RU-2em">
+                                <rect key="frame" x="182" y="326" width="54" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <state key="normal" title="Teen"/>
+                                <connections>
+                                    <segue destination="i14-K6-gD1" kind="show" id="gxI-ZN-OoX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9ZN-kd-6v8">
+                                <rect key="frame" x="180" y="480" width="60" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <state key="normal" title="Adult"/>
+                                <connections>
+                                    <segue destination="w8q-BM-V16" kind="show" id="tyq-HV-kcg"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6cD-1w-V0l"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="M99-ip-iKP"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="in2-xW-smA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="795.6521739130435" y="75.669642857142847"/>
+        </scene>
+        <!--Teen Directory View Controller-->
+        <scene sceneID="AZn-oV-Oby">
+            <objects>
+                <viewController id="i14-K6-gD1" customClass="TeenDirectoryViewController" customModule="ECOdream" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="h4I-tv-PrC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="v0w-rq-tqv"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="ZGC-cl-Nxf"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8cB-s2-rRE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1463" y="71"/>
+        </scene>
+        <!--Adult Directory View Controller-->
+        <scene sceneID="ZsO-C3-Hh6">
+            <objects>
+                <viewController id="w8q-BM-V16" customClass="AdultDirectoryViewController" customModule="ECOdream" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0mN-sn-AZC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="Paz-xV-1LX"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="3RW-cp-Ynz"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="p5R-Gq-lO5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1462" y="719"/>
+        </scene>
+        <!--Child Directory View Controller-->
+        <scene sceneID="QWO-mg-w9b">
+            <objects>
+                <viewController id="6Rm-sN-TLk" customClass="ChildDirectoryViewController" customModule="ECOdream" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="oIf-mT-5Be">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="9hz-gc-WWa"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="HAM-QZ-cuR"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Sam-RX-im8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1475" y="-569"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="nn3-N0-Gxq"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

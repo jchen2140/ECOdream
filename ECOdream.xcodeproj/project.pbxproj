@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5DA5859326BB1C44000739D9 /* AgeRangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA5859226BB1C44000739D9 /* AgeRangeViewController.swift */; };
+		5DA5859526BB1E3E000739D9 /* ChildDirectoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA5859426BB1E3E000739D9 /* ChildDirectoryViewController.swift */; };
+		5DA5859726BB1E60000739D9 /* TeenDirectoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA5859626BB1E60000739D9 /* TeenDirectoryViewController.swift */; };
+		5DA5859926BB1E80000739D9 /* AdultDirectoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA5859826BB1E80000739D9 /* AdultDirectoryViewController.swift */; };
 		5DD5EB4126B9EFBB00F74213 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD5EB4026B9EFBB00F74213 /* AppDelegate.swift */; };
 		5DD5EB4326B9EFBB00F74213 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD5EB4226B9EFBB00F74213 /* SceneDelegate.swift */; };
 		5DD5EB4526B9EFBB00F74213 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD5EB4426B9EFBB00F74213 /* ViewController.swift */; };
@@ -36,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5DA5859226BB1C44000739D9 /* AgeRangeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeRangeViewController.swift; sourceTree = "<group>"; };
+		5DA5859426BB1E3E000739D9 /* ChildDirectoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildDirectoryViewController.swift; sourceTree = "<group>"; };
+		5DA5859626BB1E60000739D9 /* TeenDirectoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeenDirectoryViewController.swift; sourceTree = "<group>"; };
+		5DA5859826BB1E80000739D9 /* AdultDirectoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdultDirectoryViewController.swift; sourceTree = "<group>"; };
 		5DD5EB3D26B9EFBB00F74213 /* ECOdream.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ECOdream.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DD5EB4026B9EFBB00F74213 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5DD5EB4226B9EFBB00F74213 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -105,6 +113,10 @@
 				5DD5EB4226B9EFBB00F74213 /* SceneDelegate.swift */,
 				5DD5EB4426B9EFBB00F74213 /* ViewController.swift */,
 				5DD5EB4626B9EFBB00F74213 /* Main.storyboard */,
+				5DA5859826BB1E80000739D9 /* AdultDirectoryViewController.swift */,
+				5DA5859626BB1E60000739D9 /* TeenDirectoryViewController.swift */,
+				5DA5859426BB1E3E000739D9 /* ChildDirectoryViewController.swift */,
+				5DA5859226BB1C44000739D9 /* AgeRangeViewController.swift */,
 				5DD5EB4C26B9EFC300F74213 /* Assets.xcassets */,
 				5DD5EB4E26B9EFC300F74213 /* LaunchScreen.storyboard */,
 				5DD5EB5126B9EFC300F74213 /* Info.plist */,
@@ -264,7 +276,11 @@
 				5DD5EB4526B9EFBB00F74213 /* ViewController.swift in Sources */,
 				5DD5EB4B26B9EFBB00F74213 /* ECOdream.xcdatamodeld in Sources */,
 				5DD5EB4126B9EFBB00F74213 /* AppDelegate.swift in Sources */,
+				5DA5859726BB1E60000739D9 /* TeenDirectoryViewController.swift in Sources */,
+				5DA5859526BB1E3E000739D9 /* ChildDirectoryViewController.swift in Sources */,
 				5DD5EB4326B9EFBB00F74213 /* SceneDelegate.swift in Sources */,
+				5DA5859326BB1C44000739D9 /* AgeRangeViewController.swift in Sources */,
+				5DA5859926BB1E80000739D9 /* AdultDirectoryViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
