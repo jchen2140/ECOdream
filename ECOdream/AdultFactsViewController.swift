@@ -15,7 +15,7 @@ class AdultFactsViewController: UIViewController {
     
     @IBAction func submitTipAdult (_ sender: Any) {
         var quickTips = ["Turn the lights off when you leave a room.", "Turn the faucet off when you brush your teeth.", "Learn what products can be recycled.", "Reduce, Re-use, Recycle!", "Avoid single use plastics.", "Plant pollinator-friendly plants that are native to your region.", "Pick up litter and dispose of it properly.", "Car-pool, take public transport, or walk when possible.", "Opt for plastic-free alternatives.", "Use a reusable water bottle.", "Reduce food waste by saving leftovers.", "Bring reusable cups or mugs to coffee shops like Starbucks.", "When ordering takeout at home, ask to forego the plastic utensils in favor of your own silverware.", "Cut down on your use of herbicides and pesticides in your personal garden.", "Fix any leaking faucets.", "Use long-lasting light bulbs."]
-        var randomInt = Int.random(in: 0..<7)
+        var randomInt = Int.random(in: 0..<15)
         adultTipLabel.text = quickTips[randomInt]
     }
     
