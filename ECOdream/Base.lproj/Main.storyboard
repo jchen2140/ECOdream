@@ -228,14 +228,10 @@
                                 <state key="normal" title="PRESS FOR QUICK TIPS">
                                     <color key="titleColor" red="0.76465100050000001" green="0.89988368750000003" blue="0.75292223690000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
+                                <connections>
+                                    <action selector="submitTipTeen:" destination="Yyw-A5-nCL" eventType="touchUpInside" id="ljP-jC-fcT"/>
+                                </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7dl-me-QAJ">
-                                <rect key="frame" x="186" y="727" width="42" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.3411667645" green="0.49195641280000002" blue="0.33723187449999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Teen Tips" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="htB-1a-Scy">
                                 <rect key="frame" x="156" y="50" width="99" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -280,19 +276,28 @@
                                     <segue destination="i14-K6-gD1" kind="show" id="lAt-co-5Cl"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="..." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7dl-me-QAJ">
+                                <rect key="frame" x="20" y="730" width="374" height="78"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.3411667645" green="0.49195641280000002" blue="0.33723187449999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Kih-PI-HNL"/>
                         <color key="backgroundColor" red="0.76465100050000001" green="0.89988368750000003" blue="0.75292223690000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <navigationItem key="navigationItem" id="9NK-9c-25x"/>
                     <connections>
+                        <outlet property="teenTipLabel" destination="7dl-me-QAJ" id="I6K-Zy-Tyf"/>
+                        <outlet property="teenTipbutton" destination="SzH-xe-6GR" id="e1N-JQ-Kjl"/>
                         <segue destination="bVm-io-fhf" kind="show" id="9Tn-93-XKl"/>
                         <segue destination="i14-K6-gD1" kind="show" id="LN2-FM-RhY"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Vig-9V-9Cy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2158" y="76"/>
+            <point key="canvasLocation" x="2157.971014492754" y="75.669642857142847"/>
         </scene>
         <!--Blog View Controller-->
         <scene sceneID="Kgz-Ie-vyq">
@@ -661,14 +666,10 @@ https://www.parks.ca.gov/?page_id=27144</string>
                                 <state key="normal" title="PRESS FOR QUICK TIPS">
                                     <color key="titleColor" red="0.76465100050000001" green="0.89988368750000003" blue="0.75292223690000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
+                                <connections>
+                                    <action selector="submitTipAdult:" destination="FB6-CM-Po3" eventType="touchUpInside" id="yDj-RF-hFe"/>
+                                </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f4m-xY-aHh">
-                                <rect key="frame" x="186" y="743" width="42" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.3411667645" green="0.49195641280000002" blue="0.33723187449999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RQU-sG-oXA">
                                 <rect key="frame" x="145" y="266" width="123" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -747,12 +748,21 @@ https://www.parks.ca.gov/?page_id=27144</string>
                                     <segue destination="geu-G1-T5m" kind="show" id="PII-ph-d4d"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="..." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f4m-xY-aHh">
+                                <rect key="frame" x="32" y="744" width="362" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.3411667645" green="0.49195641280000002" blue="0.33723187449999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="aDU-Kc-0r5"/>
                         <color key="backgroundColor" red="0.76465100050000001" green="0.89988368750000003" blue="0.75292223690000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <navigationItem key="navigationItem" id="DBJ-dR-g6R"/>
                     <connections>
+                        <outlet property="adultTipButton" destination="jXk-FQ-byS" id="tAr-uS-e3T"/>
+                        <outlet property="adultTipLabel" destination="f4m-xY-aHh" id="jhN-k8-KAT"/>
                         <segue destination="geu-G1-T5m" kind="show" id="y8e-t9-V8C"/>
                         <segue destination="JeE-23-M1r" kind="show" id="QJj-qw-lub"/>
                         <segue destination="gSz-XY-GlV" kind="show" id="jon-ic-unN"/>
@@ -763,7 +773,7 @@ https://www.parks.ca.gov/?page_id=27144</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Cwl-1o-Qkj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1946" y="690"/>
+            <point key="canvasLocation" x="1944.9275362318842" y="689.73214285714278"/>
         </scene>
         <!--WeeklyGoals-->
         <scene sceneID="DTG-tq-MZj">
@@ -961,13 +971,6 @@ https://www.parks.ca.gov/?page_id=27144</string>
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="16w-yJ-zH4">
-                                <rect key="frame" x="186" y="743" width="42" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.3411667645" green="0.49195641280000002" blue="0.33723187449999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kwZ-9a-Chk">
                                 <rect key="frame" x="129" y="683" width="157" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -976,6 +979,9 @@ https://www.parks.ca.gov/?page_id=27144</string>
                                 <state key="normal" title="PRESS FOR QUICK TIPS">
                                     <color key="titleColor" red="0.76465100050000001" green="0.89988368750000003" blue="0.75292223690000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
+                                <connections>
+                                    <action selector="submitTipChild:" destination="MbL-HY-M2W" eventType="touchUpInside" id="Oms-Bb-3o7"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Child Tips" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LiF-BK-8p5">
                                 <rect key="frame" x="154" y="70" width="107" height="30"/>
@@ -992,12 +998,21 @@ https://www.parks.ca.gov/?page_id=27144</string>
                                     <segue destination="6Rm-sN-TLk" kind="show" id="0zC-I5-HuV"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="..." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="16w-yJ-zH4">
+                                <rect key="frame" x="20" y="737" width="374" height="71"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.3411667645" green="0.49195641280000002" blue="0.33723187449999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="xUW-Ik-nkr"/>
                         <color key="backgroundColor" red="0.76465100050000001" green="0.89988368750000003" blue="0.75292223690000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <navigationItem key="navigationItem" id="lZM-Pp-auH"/>
                     <connections>
+                        <outlet property="childTipButton" destination="kwZ-9a-Chk" id="kUV-CR-o5a"/>
+                        <outlet property="childTipLabel" destination="16w-yJ-zH4" id="pWn-SE-4VR"/>
                         <segue destination="6Rm-sN-TLk" kind="show" id="baS-mL-7b1"/>
                     </connections>
                 </viewController>
@@ -1113,18 +1128,18 @@ https://www.parks.ca.gov/?page_id=27144</string>
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="Pmt-3Q-1z5"/>
-        <segue reference="AVe-Do-Muq"/>
+        <segue reference="0m9-S9-9It"/>
         <segue reference="baS-mL-7b1"/>
-        <segue reference="P6w-ik-PNl"/>
+        <segue reference="1AN-Nd-a3x"/>
         <segue reference="A7h-GX-aex"/>
         <segue reference="n63-xH-9gj"/>
         <segue reference="TzL-o5-Ycn"/>
         <segue reference="Isr-BA-oae"/>
         <segue reference="khG-Nx-rKf"/>
         <segue reference="y8e-t9-V8C"/>
-        <segue reference="ppc-LU-vTm"/>
+        <segue reference="1F2-Mv-DaL"/>
         <segue reference="LN2-FM-RhY"/>
-        <segue reference="nn3-N0-Gxq"/>
+        <segue reference="0iI-Gc-WV0"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Screen Shot 2021-08-05 at 10.18.06 AM" width="834" height="842"/>
