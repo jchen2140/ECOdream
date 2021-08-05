@@ -14,7 +14,7 @@ class ChildFactViewController: UIViewController {
     @IBOutlet weak var childTipButton: UIButton!
     
     @IBAction func submitTipChild (_ sender: Any) {
-        var quickTips = ["Turn the lights off when you leave a room.", "Turn the faucet off when you brush your teeth.", "Learn what products can be recycled.", "Reduce, Re-use, Recycle!", "Avoid single use plastics", "Shop locally, shop organically.", "Plant pollinator-friendly plants that are native to your region."]
+        var quickTips = ["Turn the lights off when you leave a room.", "Turn the faucet off when you brush your teeth.", "Learn what can be recycled.", "Reduce, Re-use, Recycle!", "Plant bee-friendly plants", "Don't litter", "Use a resuable water bottle"]
         var randomInt = Int.random(in: 0..<7)
         childTipLabel.text = quickTips[randomInt]
     }
