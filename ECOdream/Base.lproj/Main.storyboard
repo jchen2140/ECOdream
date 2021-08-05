@@ -432,17 +432,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b62-ZC-dWX">
-                                <rect key="frame" x="77" y="77" width="317" height="81"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">Donation centers:
-Goodwill: https://goodwillsv.org/store-locations/?category=179&amp;radius=16 
-Salvation Army: https://satruck.org/?utm_source=google_lerma&amp;utm_medium=cpc&amp;utm_campaign=arc_dropoff&amp;utm_content=text&amp;utm_term=general_brand&amp;pid=cpc:arc_dropoff::google_lerma:::::western_western:general_brand:evergreen&amp;gclid=EAIaIQobChMI-c244saZ8gIV-z6tBh237gj6EAAYASAAEgKh5fD_BwE 
-Buffalo Exchange: https://www.buffaloexchange.com/ </string>
-                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g5L-E4-l5l">
                                 <rect key="frame" x="20" y="151" width="374" height="605"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -450,13 +439,24 @@ Buffalo Exchange: https://www.buffaloexchange.com/ </string>
 Salvation Army: https://satruck.org/?utm_source=google_lerma&amp;utm_medium=cpc&amp;utm_campaign=arc_dropoff&amp;utm_content=text&amp;utm_term=general_brand&amp;pid=cpc:arc_dropoff::google_lerma:::::western_western:general_brand:evergreen&amp;gclid=EAIaIQobChMI-c244saZ8gIV-z6tBh237gj6EAAYASAAEgKh5fD_BwE 
 Buffalo Exchange: https://www.buffaloexchange.com/ 
 </string>
-                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="23"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b62-ZC-dWX">
+                                <rect key="frame" x="116" y="62" width="317" height="81"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Donation centers:
+Goodwill: https://goodwillsv.org/store-locations/?category=179&amp;radius=16 
+Salvation Army: https://satruck.org/?utm_source=google_lerma&amp;utm_medium=cpc&amp;utm_campaign=arc_dropoff&amp;utm_content=text&amp;utm_term=general_brand&amp;pid=cpc:arc_dropoff::google_lerma:::::western_western:general_brand:evergreen&amp;gclid=EAIaIQobChMI-c244saZ8gIV-z6tBh237gj6EAAYASAAEgKh5fD_BwE 
+Buffalo Exchange: https://www.buffaloexchange.com/ </string>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ChV-Uw-yFX"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.87138557434082031" green="0.96500974893569946" blue="0.93520987033843994" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="giv-dB-huO"/>
                 </viewController>
@@ -493,7 +493,7 @@ Buffalo Exchange: https://www.buffaloexchange.com/
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="rPC-Ep-rak"/>
-                        <color key="backgroundColor" red="0.76465100050000001" green="0.89988368750000003" blue="0.75292223690000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.67107880115509033" green="0.92921525239944458" blue="0.74665111303329468" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="2bA-af-b44"/>
                 </viewController>
@@ -1336,7 +1336,6 @@ Buffalo Exchange: https://www.buffaloexchange.com/
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="A6F-XM-Yda"/>
         <segue reference="lNj-Os-XuA"/>
         <segue reference="Pmt-3Q-1z5"/>
         <segue reference="AVe-Do-Muq"/>
