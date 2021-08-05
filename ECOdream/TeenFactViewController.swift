@@ -8,7 +8,15 @@
 import UIKit
 
 class TeenFactViewController: UIViewController {
-
+    @IBOutlet weak var teenTipbutton: UIButton!
+    @IBOutlet weak var teenTipLabel: UILabel!
+    
+    @IBAction func submitTipTeen (_ sender: Any) {
+        var quickTips = ["Turn the lights off when you leave a room.", "Turn the faucet off when you brush your teeth.", "Learn what products can be recycled.", "Reduce, Re-use, Recycle!", "Avoid single use plastics", "Shop locally, shop organically.", "Plant pollinator-friendly plants that are native to your region."]
+        var randomInt = Int.random(in: 0..<7)
+        teenTipLabel.text = quickTips[randomInt]
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
