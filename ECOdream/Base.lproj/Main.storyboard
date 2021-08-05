@@ -808,7 +808,7 @@ https://www.parks.ca.gov/?page_id=27144</string>
                                     <action selector="addTapped:" destination="uPD-Ld-peK" eventType="touchUpInside" id="rkc-Iv-rOf"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Your goals!" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="wzE-Ox-DqB">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Your goals are here! " textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="wzE-Ox-DqB">
                                 <rect key="frame" x="86" y="393" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
