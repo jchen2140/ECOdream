@@ -1253,11 +1253,11 @@ you.
                                 <rect key="frame" x="45" y="157" width="324" height="604"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <mutableString key="text">-Try thrifting! Only 13.6% of clothing is recycled.       -Buying second-hand clothing is a great way to be sustainable and contribute less to landfills, which end up being burned and creating greenhouse gases. 
+                                <string key="text">-Try thrifting! Only 13.6% of clothing is recycled.       -Buying second-hand clothing is a great way to be sustainable and contribute less to landfills, which end up being burned and creating greenhouse gases. 
 -Goodwill, Salvation Army, Plato’s Closet are popular places to thrift.
 -Shopping your clothes from sustainable and eco-friendly brands is a great way to go as well. 
 -Try to abstain from shopping from fast fashion, since the production of fast fashion products causes the depletion of non renewable energy sources, and emission of greenhouse gases. 
-</mutableString>
+</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
