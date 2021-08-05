@@ -1271,32 +1271,93 @@ you.
                                 <rect key="frame" x="45" y="157" width="324" height="604"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <mutableString key="text">-Try thrifting! Only 13.6% of clothing is recycled.       -Buying second-hand clothing is a great way to be sustainable and contribute less to landfills, which end up being burned and creating greenhouse gases. 
+                                <string key="text">-Try thrifting! Only 13.6% of clothing is recycled.       -Buying second-hand clothing is a great way to be sustainable and contribute less to landfills, which end up being burned and creating greenhouse gases. 
 -Goodwill, Salvation Army, Plato’s Closet are popular places to thrift.
 -Shopping your clothes from sustainable and eco-friendly brands is a great way to go as well. 
 -Try to abstain from shopping from fast fashion, since the production of fast fashion products causes the depletion of non renewable energy sources, and emission of greenhouse gases. 
-</mutableString>
+</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rUF-yy-MtF">
+                                <rect key="frame" x="169" y="769" width="77" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <state key="normal" title="Donate"/>
+                                <connections>
+                                    <segue destination="3xT-8X-H4A" kind="show" id="lNj-Os-XuA"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="oe5-TV-Iju"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="bto-Zu-KA6"/>
+                    <connections>
+                        <segue destination="3xT-8X-H4A" kind="show" id="tGt-yU-11v"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ybh-bm-Z24" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3685.507246376812" y="-788.16964285714278"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="YOy-D6-5Kw">
+            <objects>
+                <viewController id="3xT-8X-H4A" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="NYW-U6-cmX">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Donation Centers" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n8D-BB-aNL">
+                                <rect key="frame" x="117" y="68" width="181" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EHH-No-pVy">
+                                <rect key="frame" x="457" y="388" width="1885" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Goodwill: https://goodwillsv.org/store-locations/?category=179&amp;radius=16 
+Salvation Army: https://satruck.org/?utm_source=google_lerma&amp;utm_medium=cpc&amp;utm_campaign=arc_dropoff&amp;utm_content=text&amp;utm_term=general_brand&amp;pid=cpc:arc_dropoff::google_lerma:::::western_western:general_brand:evergreen&amp;gclid=EAIaIQobChMI-c244saZ8gIV-z6tBh237gj6EAAYASAAEgKh5fD_BwE 
+Buffalo Exchange: https://www.buffaloexchange.com/ 
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jfp-rI-KIN">
+                                <rect key="frame" x="41" y="-89" width="353" height="887"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Goodwill: https://goodwillsv.org/store-locations/?category=179&amp;radius=16 
+Salvation Army: https://satruck.org/?utm_source=google_lerma&amp;utm_medium=cpc&amp;utm_campaign=arc_dropoff&amp;utm_content=text&amp;utm_term=general_brand&amp;pid=cpc:arc_dropoff::google_lerma:::::western_western:general_brand:evergreen&amp;gclid=EAIaIQobChMI-c244saZ8gIV-z6tBh237gj6EAAYASAAEgKh5fD_BwE 
+Buffalo Exchange: https://www.buffaloexchange.com/ 
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="1eg-YP-nZx"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="mQa-hY-ge0"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="N1A-fn-SGd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4415.9420289855079" y="-778.125"/>
+        </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="A6F-XM-Yda"/>
+        <segue reference="lNj-Os-XuA"/>
         <segue reference="Pmt-3Q-1z5"/>
-        <segue reference="0m9-S9-9It"/>
+        <segue reference="AVe-Do-Muq"/>
         <segue reference="baS-mL-7b1"/>
         <segue reference="9P2-CD-mxc"/>
-        <segue reference="1AN-Nd-a3x"/>
+        <segue reference="hOr-vc-WXM"/>
         <segue reference="A7h-GX-aex"/>
         <segue reference="AKa-gF-Gkv"/>
         <segue reference="ncA-XG-NCo"/>
@@ -1307,9 +1368,9 @@ you.
         <segue reference="4lw-OD-bWH"/>
         <segue reference="y8e-t9-V8C"/>
         <segue reference="HGd-TC-c6N"/>
-        <segue reference="1F2-Mv-DaL"/>
+        <segue reference="ppc-LU-vTm"/>
         <segue reference="LN2-FM-RhY"/>
-        <segue reference="0iI-Gc-WV0"/>
+        <segue reference="Uu5-N3-3In"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Screen Shot 2021-08-05 at 10.18.06 AM" width="834" height="842"/>
