@@ -277,24 +277,73 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pQf-CN-1nf">
-                                <rect key="frame" x="46" y="174" width="322" height="592"/>
+                                <rect key="frame" x="46" y="176" width="322" height="534"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">-  Try thrifting!                                                                                                                                                                                                -Only 13.6% of clothing is recycled.                                       -Buying second-hand clothing is a great way to be sustainable and contribute less to landfills, which end up being burned and creating greenhouse gases. 
+                                <mutableString key="text">-  Try thrifting!                                                                                                                                                                                                -Only 13.6% of clothing is recycled.                                       -Buying second-hand clothing is a great way to be sustainable and contribute less to landfills, which end up being burned and creating greenhouse gases. 
 -Goodwill, Salvation Army, Plato’s Closet are all great local places to thrift. 
--Shopping your clothes from sustainable and eco-friendly brands is a great way to go as well.                                               -Check out these brands: https://www.thegoodtrade.com/features/fair-trade-clothing</string>
+-Shopping your clothes from sustainable and eco-friendly brands is a great way to go as well.                                               -Check out these brands: https://www.thegoodtrade.com/features/fair-trade-clothing</mutableString>
                                 <color key="textColor" red="0.3411667645" green="0.49195641280000002" blue="0.33723187449999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="23"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z3Y-7C-TQC">
+                                <rect key="frame" x="170" y="718" width="82" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <state key="normal" title="Donate"/>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="MVA-4h-ewK"/>
                         <color key="backgroundColor" red="0.76465100050000001" green="0.89988368750000003" blue="0.75292223690000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <navigationItem key="navigationItem" id="3h9-4u-XVU"/>
+                    <connections>
+                        <segue destination="Chv-bC-pOZ" kind="show" id="4lw-OD-bWH"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hyc-Qk-daZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="445" y="766"/>
+            <point key="canvasLocation" x="444.92753623188412" y="765.40178571428567"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Z2L-eF-vMt">
+            <objects>
+                <viewController id="Chv-bC-pOZ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="epk-u7-vQc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b62-ZC-dWX">
+                                <rect key="frame" x="77" y="77" width="317" height="81"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Donation centers:
+Goodwill: https://goodwillsv.org/store-locations/?category=179&amp;radius=16 
+Salvation Army: https://satruck.org/?utm_source=google_lerma&amp;utm_medium=cpc&amp;utm_campaign=arc_dropoff&amp;utm_content=text&amp;utm_term=general_brand&amp;pid=cpc:arc_dropoff::google_lerma:::::western_western:general_brand:evergreen&amp;gclid=EAIaIQobChMI-c244saZ8gIV-z6tBh237gj6EAAYASAAEgKh5fD_BwE 
+Buffalo Exchange: https://www.buffaloexchange.com/ </string>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g5L-E4-l5l">
+                                <rect key="frame" x="20" y="151" width="374" height="605"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Goodwill: https://goodwillsv.org/store-locations/?category=179&amp;radius=16 
+Salvation Army: https://satruck.org/?utm_source=google_lerma&amp;utm_medium=cpc&amp;utm_campaign=arc_dropoff&amp;utm_content=text&amp;utm_term=general_brand&amp;pid=cpc:arc_dropoff::google_lerma:::::western_western:general_brand:evergreen&amp;gclid=EAIaIQobChMI-c244saZ8gIV-z6tBh237gj6EAAYASAAEgKh5fD_BwE 
+Buffalo Exchange: https://www.buffaloexchange.com/ 
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="ChV-Uw-yFX"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="giv-dB-huO"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zqZ-hg-Th3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-10.144927536231885" y="1447.7678571428571"/>
         </scene>
         <!--AdultsTransportation-->
         <scene sceneID="0gQ-lK-8Pw">
@@ -349,7 +398,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Dsi-vl-c56">
-                                <rect key="frame" x="38" y="166" width="356" height="642"/>
+                                <rect key="frame" x="27" y="166" width="356" height="642"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">-Check out your local’s farmer’s market.                                       -These are typically held on weekends and have various local vendors, who typically minimize the amount of waste and pollution they create. 
                                                     -Just changing your diet can make a difference! -Eating foods like beef can actually be harmful to our environment.                 -Cows emit a gas called methane which can pollute our air, so simply changing your diet and trying maybe even vegan recipes will help the environment!
@@ -411,21 +460,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="jAM-2Y-XAV">
-                                <rect key="frame" x="51" y="199" width="313" height="409"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">-Here are some organizations to volunteer with! 
-
--Greenpeace, an nonprofit created to increase public awareness and mitigate environment issues
-- https://www.greenpeace.org/usa/contact/
-
--Beach Clean Ups:
-https://www.parks.ca.gov/?page_id=27144
-</string>
-                                <color key="textColor" red="0.3411667645" green="0.49195641280000002" blue="0.33723187449999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="23"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Community Service" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s2W-IE-v3L">
                                 <rect key="frame" x="93" y="84" width="212" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -433,6 +467,20 @@ https://www.parks.ca.gov/?page_id=27144
                                 <color key="textColor" red="0.3411667645" green="0.49195641280000002" blue="0.33723187449999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="jAM-2Y-XAV">
+                                <rect key="frame" x="51" y="149" width="313" height="393"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">-Here are some organizations to volunteer with! 
+
+-Greenpeace, an nonprofit created to increase public awareness and mitigate environment issues
+- https://www.greenpeace.org/usa/contact/
+
+-Beach Clean Ups:
+https://www.parks.ca.gov/?page_id=27144</string>
+                                <color key="textColor" red="0.3411667645" green="0.49195641280000002" blue="0.33723187449999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="23"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="603-jx-ghr"/>
                         <color key="backgroundColor" red="0.76465100050000001" green="0.89988368750000003" blue="0.75292223690000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -441,7 +489,7 @@ https://www.parks.ca.gov/?page_id=27144
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yaZ-52-kIz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3035" y="1100"/>
+            <point key="canvasLocation" x="3034.7826086956525" y="1099.5535714285713"/>
         </scene>
         <!--Adult Directory View Controller-->
         <scene sceneID="ZsO-C3-Hh6">
@@ -650,7 +698,7 @@ https://www.parks.ca.gov/?page_id=27144
                                 <rect key="frame" x="54" y="271" width="310" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.60760927200000003" green="0.67592239379999997" blue="0.56469094750000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <color key="textColor" red="0.60760927200000003" green="0.67592239379999997" blue="0.56469094750000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
@@ -658,15 +706,15 @@ https://www.parks.ca.gov/?page_id=27144
                                 <rect key="frame" x="52" y="333" width="310" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.60760927200000003" green="0.67592239379999997" blue="0.56469094750000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <color key="textColor" red="0.60760927200000003" green="0.67592239379999997" blue="0.56469094750000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Xg0-PL-pTF">
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Xg0-PL-pTF">
                                 <rect key="frame" x="54" y="216" width="310" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.60760927200000003" green="0.67592239379999997" blue="0.56469094750000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <color key="textColor" red="0.60760927200000003" green="0.67592239379999997" blue="0.56469094750000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
@@ -688,7 +736,7 @@ https://www.parks.ca.gov/?page_id=27144
                                 <rect key="frame" x="54" y="392" width="310" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.60760927200000003" green="0.67592239379999997" blue="0.56469094750000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <color key="textColor" red="0.60760927200000003" green="0.67592239379999997" blue="0.56469094750000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
@@ -696,7 +744,7 @@ https://www.parks.ca.gov/?page_id=27144
                                 <rect key="frame" x="54" y="453" width="310" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.60760927200000003" green="0.67592239379999997" blue="0.56469094750000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <color key="textColor" red="0.60760927200000003" green="0.67592239379999997" blue="0.56469094750000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
@@ -704,7 +752,7 @@ https://www.parks.ca.gov/?page_id=27144
                                 <rect key="frame" x="54" y="523" width="308" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.60760927200000003" green="0.67592239379999997" blue="0.56469094750000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <color key="textColor" red="0.60760927200000003" green="0.67592239379999997" blue="0.56469094750000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
