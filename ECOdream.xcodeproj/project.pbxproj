@@ -15,6 +15,7 @@
 		5DA5859526BB1E3E000739D9 /* ChildDirectoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA5859426BB1E3E000739D9 /* ChildDirectoryViewController.swift */; };
 		5DA5859726BB1E60000739D9 /* TeenDirectoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA5859626BB1E60000739D9 /* TeenDirectoryViewController.swift */; };
 		5DA5859926BB1E80000739D9 /* AdultDirectoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA5859826BB1E80000739D9 /* AdultDirectoryViewController.swift */; };
+		5DA5859B26BB8FF9000739D9 /* StatisticsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA5859A26BB8FF9000739D9 /* StatisticsViewController.swift */; };
 		5DD5EB4126B9EFBB00F74213 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD5EB4026B9EFBB00F74213 /* AppDelegate.swift */; };
 		5DD5EB4326B9EFBB00F74213 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD5EB4226B9EFBB00F74213 /* SceneDelegate.swift */; };
 		5DD5EB4526B9EFBB00F74213 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD5EB4426B9EFBB00F74213 /* ViewController.swift */; };
@@ -52,6 +53,7 @@
 		5DA5859426BB1E3E000739D9 /* ChildDirectoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildDirectoryViewController.swift; sourceTree = "<group>"; };
 		5DA5859626BB1E60000739D9 /* TeenDirectoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeenDirectoryViewController.swift; sourceTree = "<group>"; };
 		5DA5859826BB1E80000739D9 /* AdultDirectoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdultDirectoryViewController.swift; sourceTree = "<group>"; };
+		5DA5859A26BB8FF9000739D9 /* StatisticsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsViewController.swift; sourceTree = "<group>"; };
 		5DD5EB3D26B9EFBB00F74213 /* ECOdream.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ECOdream.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DD5EB4026B9EFBB00F74213 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5DD5EB4226B9EFBB00F74213 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 				5DD5EB4226B9EFBB00F74213 /* SceneDelegate.swift */,
 				5DD5EB4426B9EFBB00F74213 /* ViewController.swift */,
 				5DD5EB4626B9EFBB00F74213 /* Main.storyboard */,
+				5DA5859A26BB8FF9000739D9 /* StatisticsViewController.swift */,
 				550EF01326BB302A0041158C /* AdultFactsViewController.swift */,
 				550EF01126BB2F640041158C /* TeenFactViewController.swift */,
 				5DA5859826BB1E80000739D9 /* AdultDirectoryViewController.swift */,
@@ -297,6 +300,7 @@
 				5DA5859926BB1E80000739D9 /* AdultDirectoryViewController.swift in Sources */,
 				550EF01226BB2F640041158C /* TeenFactViewController.swift in Sources */,
 				550EF01026BB2E460041158C /* ChildFactViewController.swift in Sources */,
+				5DA5859B26BB8FF9000739D9 /* StatisticsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
