@@ -1339,7 +1339,7 @@ you.
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="mfc-8K-T3K">
                                         <rect key="frame" x="8" y="35" width="322" height="956"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" red="0.82294094279999996" green="0.93654605769999999" blue="0.78445873379999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" red="0.71583039879536436" green="0.96730924067723323" blue="0.74524059688582978" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <string key="text">Energy 
 Try to turn off your faucet, fan, or other household appliances when not using them! Remember to save energy. 
 
@@ -1586,10 +1586,10 @@ Buffalo Exchange: https://www.buffaloexchange.com/
     <inferredMetricsTieBreakers>
         <segue reference="lNj-Os-XuA"/>
         <segue reference="Pmt-3Q-1z5"/>
-        <segue reference="Eum-uV-790"/>
+        <segue reference="YFX-jj-KAp"/>
         <segue reference="0zC-I5-HuV"/>
         <segue reference="9P2-CD-mxc"/>
-        <segue reference="k6A-37-kUZ"/>
+        <segue reference="at0-Uv-bOp"/>
         <segue reference="A7h-GX-aex"/>
         <segue reference="AKa-gF-Gkv"/>
         <segue reference="ncA-XG-NCo"/>
@@ -1600,9 +1600,9 @@ Buffalo Exchange: https://www.buffaloexchange.com/
         <segue reference="4lw-OD-bWH"/>
         <segue reference="y8e-t9-V8C"/>
         <segue reference="HGd-TC-c6N"/>
-        <segue reference="1F2-Mv-DaL"/>
+        <segue reference="uTw-3a-700"/>
         <segue reference="LN2-FM-RhY"/>
-        <segue reference="0iI-Gc-WV0"/>
+        <segue reference="oRI-bK-TwE"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Image" width="512" height="512"/>
