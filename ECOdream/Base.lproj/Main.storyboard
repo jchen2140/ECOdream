@@ -1462,11 +1462,11 @@ Make sure to prevent as much trash on our floors by putting your waste in a tras
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="VfR-ND-gWw">
                                 <rect key="frame" x="45" y="157" width="324" height="604"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">-Try thrifting! Only 13.6% of clothing is recycled.                   -Buying second-hand clothing is a great way to be sustainable and contribute less to landfills, which end up being burned and creating greenhouse gases. 
+                                <string key="text">-Try thrifting! Only 13.6% of clothing is recycled.                   -Buying second-hand clothing is a great way to be sustainable and contribute less to landfills, which end up being burned and creating greenhouse gases. 
 -Goodwill, Salvation Army, Plato’s Closet are popular places to thrift.
 -Shopping your clothes from sustainable and eco-friendly brands is a great way to go as well. 
 -Try to abstain from shopping from fast fashion, since the production of fast fashion products causes the depletion of non renewable energy sources, and emission of greenhouse gases. 
-</mutableString>
+</string>
                                 <color key="textColor" red="0.3411667645" green="0.49195641280000002" blue="0.33723187449999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="22"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
