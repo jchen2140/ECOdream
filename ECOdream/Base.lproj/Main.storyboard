@@ -154,18 +154,6 @@
                                     <segue destination="uPD-Ld-peK" kind="show" id="1AN-Nd-a3x"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oLS-eg-7wL">
-                                <rect key="frame" x="143" y="449" width="129" height="52"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.82294094279999996" green="0.93654605769999999" blue="0.78445873379999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="23"/>
-                                <state key="normal" title="Tips">
-                                    <color key="titleColor" red="0.3411667645" green="0.49195641280000002" blue="0.33723187449999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </state>
-                                <connections>
-                                    <segue destination="Yyw-A5-nCL" kind="show" id="fdd-Kr-Ogd"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Teen's Homepage" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U3A-NS-GCJ">
                                 <rect key="frame" x="107" y="78" width="200" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -186,20 +174,20 @@
                                 <color key="tintColor" red="0.91542016400000004" green="0.89666374059999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="barTintColor" red="0.26790011749861842" green="0.56284224989999998" blue="0.45927880605672072" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </toolbar>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9KB-H0-fzY">
-                                <rect key="frame" x="140" y="315" width="135" height="52"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oLS-eg-7wL">
+                                <rect key="frame" x="142" y="324" width="129" height="52"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.82294094279999996" green="0.93654605769999999" blue="0.78445873379999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="23"/>
-                                <state key="normal" title="Blog">
+                                <state key="normal" title="Tips">
                                     <color key="titleColor" red="0.3411667645" green="0.49195641280000002" blue="0.33723187449999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
-                                    <segue destination="pSP-4r-qna" kind="show" id="1F2-Mv-DaL"/>
+                                    <segue destination="Yyw-A5-nCL" kind="show" id="fdd-Kr-Ogd"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yge-D6-Jjd">
-                                <rect key="frame" x="124" y="572" width="166" height="58"/>
+                                <rect key="frame" x="124" y="447" width="166" height="58"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.82294094279999996" green="0.93654605769999999" blue="0.78445873379999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="23"/>
@@ -354,7 +342,7 @@
             <objects>
                 <viewController id="pSP-4r-qna" customClass="BlogViewController" customModule="ECOdream" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="C0I-Oy-GF1">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Blog" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ncT-Nc-n04">
@@ -850,18 +838,6 @@ Buffalo Exchange: https://www.buffaloexchange.com/ </string>
                                     <segue destination="uPD-Ld-peK" kind="show" id="hOr-vc-WXM"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0yq-6G-4Nk">
-                                <rect key="frame" x="156" y="293" width="105" height="51"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.82294094279999996" green="0.93654605769999999" blue="0.78445873379999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="23"/>
-                                <state key="normal" title="Blog">
-                                    <color key="titleColor" red="0.3411667645" green="0.49195641280000002" blue="0.33723187449999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </state>
-                                <connections>
-                                    <segue destination="pSP-4r-qna" kind="show" id="ppc-LU-vTm"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Adult's Homepage" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1wt-gz-JTJ">
                                 <rect key="frame" x="103" y="72" width="209" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -869,18 +845,6 @@ Buffalo Exchange: https://www.buffaloexchange.com/ </string>
                                 <color key="textColor" red="0.3411667645" green="0.49195641280000002" blue="0.33723187449999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yue-RR-PWI">
-                                <rect key="frame" x="142" y="403" width="135" height="47"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.82294094279999996" green="0.93654605769999999" blue="0.78445873379999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="23"/>
-                                <state key="normal" title="Tips">
-                                    <color key="titleColor" red="0.3411667645" green="0.49195641280000002" blue="0.33723187449999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </state>
-                                <connections>
-                                    <segue destination="FB6-CM-Po3" kind="show" id="A6F-XM-Yda"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5q1-aJ-Fy4">
                                 <rect key="frame" x="20" y="16" width="165" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -905,8 +869,20 @@ Buffalo Exchange: https://www.buffaloexchange.com/ </string>
                                 </items>
                                 <color key="barTintColor" red="0.26790011749999998" green="0.56284224989999998" blue="0.45927880609999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </toolbar>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yue-RR-PWI">
+                                <rect key="frame" x="140" y="317" width="135" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.82294094279999996" green="0.93654605769999999" blue="0.78445873379999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="23"/>
+                                <state key="normal" title="Tips">
+                                    <color key="titleColor" red="0.3411667645" green="0.49195641280000002" blue="0.33723187449999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <segue destination="FB6-CM-Po3" kind="show" id="A6F-XM-Yda"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J4B-mq-bVt">
-                                <rect key="frame" x="156" y="514" width="107" height="51"/>
+                                <rect key="frame" x="155" y="428" width="107" height="51"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.82294094279999996" green="0.93654605769999999" blue="0.78445873379999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="23"/>
@@ -1206,42 +1182,6 @@ you.
                                     <segue destination="uPD-Ld-peK" kind="show" id="axN-8Q-feU"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qx2-c8-Rud">
-                                <rect key="frame" x="163" y="449" width="107" height="44"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.82294094279999996" green="0.93654605769999999" blue="0.78445873379999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="22"/>
-                                <state key="normal" title="Tips ">
-                                    <color key="titleColor" red="0.3411667645" green="0.49195641280000002" blue="0.33723187449999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </state>
-                                <connections>
-                                    <segue destination="MbL-HY-M2W" kind="show" id="KZ9-36-OKH"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="lVH-Gx-pil">
-                                <rect key="frame" x="163" y="332" width="107" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.82294094279999996" green="0.93654605769999999" blue="0.78445873379999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="23"/>
-                                <state key="normal" title="Blog">
-                                    <color key="titleColor" red="0.3411667645" green="0.49195641280000002" blue="0.33723187449999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </state>
-                                <connections>
-                                    <segue destination="pSP-4r-qna" kind="show" id="uTw-3a-700"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n8q-Bm-4OC">
-                                <rect key="frame" x="146" y="576" width="144" height="52"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.82294094279999996" green="0.93654605769999999" blue="0.78445873379999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="23"/>
-                                <state key="normal" title="Statistics">
-                                    <color key="titleColor" red="0.3411667645" green="0.49195641280000002" blue="0.33723187449999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </state>
-                                <connections>
-                                    <segue destination="Hbz-1P-jeH" kind="show" id="YFX-jj-KAp"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TZm-kg-iYH">
                                 <rect key="frame" x="7" y="19" width="165" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1273,6 +1213,30 @@ you.
                                 <color key="tintColor" red="1" green="0.87272623169999997" blue="0.92816526600000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="barTintColor" red="0.26790011749999998" green="0.56284224989999998" blue="0.45927880609999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </toolbar>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qx2-c8-Rud">
+                                <rect key="frame" x="163" y="320" width="107" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.82294094279999996" green="0.93654605769999999" blue="0.78445873379999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="22"/>
+                                <state key="normal" title="Tips ">
+                                    <color key="titleColor" red="0.3411667645" green="0.49195641280000002" blue="0.33723187449999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <segue destination="MbL-HY-M2W" kind="show" id="KZ9-36-OKH"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n8q-Bm-4OC">
+                                <rect key="frame" x="146" y="447" width="144" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.82294094279999996" green="0.93654605769999999" blue="0.78445873379999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="23"/>
+                                <state key="normal" title="Statistics">
+                                    <color key="titleColor" red="0.3411667645" green="0.49195641280000002" blue="0.33723187449999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Hbz-1P-jeH" kind="show" id="YFX-jj-KAp"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="9hz-gc-WWa"/>
                         <color key="backgroundColor" red="0.76465100050000001" green="0.89988368750000003" blue="0.75292223690000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -1586,10 +1550,10 @@ Buffalo Exchange: https://www.buffaloexchange.com/
     <inferredMetricsTieBreakers>
         <segue reference="lNj-Os-XuA"/>
         <segue reference="Pmt-3Q-1z5"/>
-        <segue reference="YFX-jj-KAp"/>
+        <segue reference="oaT-z9-9bd"/>
         <segue reference="jZW-RO-sdm"/>
         <segue reference="9P2-CD-mxc"/>
-        <segue reference="at0-Uv-bOp"/>
+        <segue reference="P6w-ik-PNl"/>
         <segue reference="tyq-HV-kcg"/>
         <segue reference="AKa-gF-Gkv"/>
         <segue reference="ncA-XG-NCo"/>
@@ -1600,9 +1564,8 @@ Buffalo Exchange: https://www.buffaloexchange.com/
         <segue reference="4lw-OD-bWH"/>
         <segue reference="y8e-t9-V8C"/>
         <segue reference="HGd-TC-c6N"/>
-        <segue reference="uTw-3a-700"/>
         <segue reference="gxI-ZN-OoX"/>
-        <segue reference="oRI-bK-TwE"/>
+        <segue reference="Hyt-dk-fLB"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Image" width="512" height="512"/>
