@@ -1582,14 +1582,15 @@ Buffalo Exchange: https://www.buffaloexchange.com/
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="A6F-XM-Yda"/>
         <segue reference="KZ9-36-OKH"/>
         <segue reference="lNj-Os-XuA"/>
         <segue reference="Pmt-3Q-1z5"/>
-        <segue reference="YFX-jj-KAp"/>
+        <segue reference="oaT-z9-9bd"/>
         <segue reference="0zC-I5-HuV"/>
         <segue reference="9P2-CD-mxc"/>
-        <segue reference="axN-8Q-feU"/>
-        <segue reference="tyq-HV-kcg"/>
+        <segue reference="P6w-ik-PNl"/>
+        <segue reference="A7h-GX-aex"/>
         <segue reference="AKa-gF-Gkv"/>
         <segue reference="ncA-XG-NCo"/>
         <segue reference="n63-xH-9gj"/>
@@ -1599,9 +1600,9 @@ Buffalo Exchange: https://www.buffaloexchange.com/
         <segue reference="4lw-OD-bWH"/>
         <segue reference="y8e-t9-V8C"/>
         <segue reference="HGd-TC-c6N"/>
-        <segue reference="uTw-3a-700"/>
-        <segue reference="gxI-ZN-OoX"/>
-        <segue reference="oRI-bK-TwE"/>
+        <segue reference="ppc-LU-vTm"/>
+        <segue reference="LN2-FM-RhY"/>
+        <segue reference="uTO-lb-tg8"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Image" width="512" height="512"/>

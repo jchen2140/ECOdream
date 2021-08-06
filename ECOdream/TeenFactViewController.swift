@@ -10,13 +10,13 @@ import UIKit
 class TeenFactViewController: UIViewController {
     @IBOutlet weak var teenTipbutton: UIButton!
     @IBOutlet weak var teenTipLabel: UILabel!
-    
+    //changed var to let for quicktips and randomint
     @IBAction func submitTipTeen (_ sender: Any) {
-        var quickTips = ["Turn the lights off when you leave a room.", "Turn the faucet off when you brush your teeth.", "Learn what products can be recycled.", "Reduce, Re-use, Recycle!", "Avoid single use plastics.", "Plant pollinator-friendly plants that are native to your region.", "Make sure all trash makes it into the proper bins.", "Car-pool, take public transport, or walk when possible.", "Opt for plastic-free alternatives.", "Use a reusable water bottle.", "Reduce food waste by saving leftovers.", "Bring reusable cups or mugs to coffee shops like Starbucks.", "When ordering takeout at home, ask to forego the plastic utensils in favor of your own silverware."]
-        var randomInt = Int.random(in: 0..<14)
+        let quickTips = ["Turn the lights off when you leave a room.", "Turn the faucet off when you brush your teeth.", "Learn what products can be recycled.", "Reduce, Re-use, Recycle!", "Avoid single use plastics.", "Plant pollinator-friendly plants that are native to your region.", "Make sure all trash makes it into the proper bins.", "Car-pool, take public transport, or walk when possible.", "Opt for plastic-free alternatives.", "Use a reusable water bottle.", "Reduce food waste by saving leftovers.", "Bring reusable cups or mugs to coffee shops like Starbucks.", "When ordering takeout at home, ask to forego the plastic utensils in favor of your own silverware."]
+        let randomInt = Int.random(in: 0..<14)
         teenTipLabel.text = quickTips[randomInt]
     }
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
