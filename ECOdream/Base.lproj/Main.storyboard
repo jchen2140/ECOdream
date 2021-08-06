@@ -109,7 +109,7 @@
                                     <segue destination="w8q-BM-V16" kind="show" id="tyq-HV-kcg"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="care" translatesAutoresizingMaskIntoConstraints="NO" id="fTd-Gf-yr9">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="care (1)" translatesAutoresizingMaskIntoConstraints="NO" id="fTd-Gf-yr9">
                                 <rect key="frame" x="87" y="521" width="240" height="171"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -1587,10 +1587,10 @@ Buffalo Exchange: https://www.buffaloexchange.com/
         <segue reference="lNj-Os-XuA"/>
         <segue reference="Pmt-3Q-1z5"/>
         <segue reference="YFX-jj-KAp"/>
-        <segue reference="0zC-I5-HuV"/>
+        <segue reference="jZW-RO-sdm"/>
         <segue reference="9P2-CD-mxc"/>
         <segue reference="at0-Uv-bOp"/>
-        <segue reference="A7h-GX-aex"/>
+        <segue reference="tyq-HV-kcg"/>
         <segue reference="AKa-gF-Gkv"/>
         <segue reference="ncA-XG-NCo"/>
         <segue reference="n63-xH-9gj"/>
@@ -1601,7 +1601,7 @@ Buffalo Exchange: https://www.buffaloexchange.com/
         <segue reference="y8e-t9-V8C"/>
         <segue reference="HGd-TC-c6N"/>
         <segue reference="uTw-3a-700"/>
-        <segue reference="LN2-FM-RhY"/>
+        <segue reference="gxI-ZN-OoX"/>
         <segue reference="oRI-bK-TwE"/>
     </inferredMetricsTieBreakers>
     <resources>
