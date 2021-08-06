@@ -1,16 +1,16 @@
 {
   "images" : [
     {
-      "filename" : "care.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "ecology.png",
+      "filename" : "tshirt.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
+      "filename" : "green-energy-2.png",
       "idiom" : "universal",
       "scale" : "3x"
     }
