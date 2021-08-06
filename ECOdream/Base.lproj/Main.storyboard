@@ -1339,7 +1339,7 @@ you.
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="mfc-8K-T3K">
                                         <rect key="frame" x="8" y="35" width="322" height="956"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" red="0.71583039879536436" green="0.96730924067723323" blue="0.74524059688582978" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" red="0.7411690434814886" green="1" blue="0.77267717546735826" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <string key="text">Energy 
 Try to turn off your faucet, fan, or other household appliances when not using them! Remember to save energy. 
 
