@@ -186,7 +186,7 @@
                                 <color key="highlightedColor" name="AccentColor"/>
                             </label>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xrC-Fh-bE1">
-                                <rect key="frame" x="0.0" y="710" width="414" height="44"/>
+                                <rect key="frame" x="0.0" y="710" width="413" height="43"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <items>
                                     <barButtonItem title="Back" id="4oF-YX-OAB">
@@ -423,9 +423,9 @@
                                 <accessibility key="accessibilityConfiguration">
                                     <accessibilityTraits key="traits" link="YES"/>
                                 </accessibility>
-                                <string key="text">-  Try thrifting!                                                                                                                                                                                                -Only 13.6% of clothing is recycled.                                       -Buying second-hand clothing is a great way to be sustainable and contribute less to landfills, which end up being burned and creating greenhouse gases. 
+                                <mutableString key="text">-  Try thrifting!                                                                                                                                                                                                -Only 13.6% of clothing is recycled.                                       -Buying second-hand clothing is a great way to be sustainable and contribute less to landfills, which end up being burned and creating greenhouse gases. 
 -Goodwill, Salvation Army, Plato’s Closet are all great local places to thrift. 
--Shopping your clothes from sustainable and eco-friendly brands is a great way to go as well.                                               -</string>
+-Shopping your clothes from sustainable and eco-friendly brands is a great way to go as well.                                               </mutableString>
                                 <color key="textColor" red="0.3411667645" green="0.49195641280000002" blue="0.33723187449999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="23"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -548,30 +548,46 @@ Buffalo Exchange: https://www.buffaloexchange.com/ </string>
         <!--AdultsTransportation-->
         <scene sceneID="0gQ-lK-8Pw">
             <objects>
-                <viewController title="AdultsTransportation" id="JeE-23-M1r" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="MR2-YP-ffE">
+                <viewController title="AdultsTransportation" id="JeE-23-M1r" customClass="TransportationViewController" customModule="ECOdream" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="MR2-YP-ffE" customClass="UIInputView">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Qw1-S4-zcA">
+                                <rect key="frame" x="46" y="174" width="322" height="571.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">-Public transportation is a great way to reduce your carbon footprint!                        
+-A typical passenger vehicle emits about 4.6 metric tons of carbon dioxide per year.               -Taking a bus to work, walking, or even taking a bicycle to near destinations help.(Will also save you money on gas!)                
+-Try using electric cars if they are accessible and affordable to you.                 
+
+
+</string>
+                                <color key="textColor" red="0.3411667645" green="0.49195641280000002" blue="0.33723187449999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="23"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Transportation" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y8R-J8-HRo">
-                                <rect key="frame" x="260" y="406" width="154" height="30"/>
+                                <rect key="frame" x="130" y="74" width="154" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="25"/>
                                 <color key="textColor" red="0.3411667645" green="0.49195641280000002" blue="0.33723187449999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Qw1-S4-zcA">
-                                <rect key="frame" x="46" y="270" width="322" height="571.5"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iaI-LC-utZ">
+                                <rect key="frame" x="20" y="717" width="374" height="51"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">-Public transportation is a great way to reduce your carbon footprint!                        
--A typical passenger vehicle emits about 4.6 metric tons of carbon dioxide per year.               -Taking a bus to work, walking, or even taking a bicycle to near destinations help.(Will also save you money on gas!)                
--Try using electric cars if they are accessible and affordable to you.                 
--Check out this link for more information on public transportation near you: https://www.transportation.gov/public-transit
-</mutableString>
-                                <color key="textColor" red="0.3411667645" green="0.49195641280000002" blue="0.33723187449999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="23"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
+                                <color key="backgroundColor" red="0.83986572569999995" green="0.93654605769999999" blue="0.78805358280000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="16"/>
+                                <state key="normal" title="Click for more about public transportation near you">
+                                    <color key="titleColor" red="0.21065203530000001" green="0.3986670652" blue="0.19960190320000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="adultClothing:" destination="geu-G1-T5m" eventType="touchUpInside" id="BbN-Ny-ZlB"/>
+                                    <action selector="clothingBrands:" destination="C7Z-Bo-nR3" eventType="touchUpInside" id="dOc-Z5-ShN"/>
+                                    <action selector="transportationButton:" destination="cL5-lI-1ZI" eventType="touchUpInside" id="UTB-6W-gcI"/>
+                                    <action selector="transportationButton:" destination="JeE-23-M1r" eventType="touchUpInside" id="YdI-h9-etY"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="rPC-Ep-rak"/>
                         <color key="backgroundColor" red="0.76465100050000001" green="0.89988368750000003" blue="0.75292223690000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -579,6 +595,7 @@ Buffalo Exchange: https://www.buffaloexchange.com/ </string>
                     <navigationItem key="navigationItem" id="2bA-af-b44"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8V1-zt-WNQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="cL5-lI-1ZI" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="863.768115942029" y="1439.7321428571429"/>
         </scene>
@@ -655,7 +672,7 @@ Buffalo Exchange: https://www.buffaloexchange.com/ </string>
         <!--AdultsComSer-->
         <scene sceneID="QPq-Xf-I7f">
             <objects>
-                <viewController title="AdultsComSer" id="jaK-PR-e12" sceneMemberID="viewController">
+                <viewController title="AdultsComSer" id="jaK-PR-e12" customClass="CommunityServiceViewController" customModule="ECOdream" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kuL-O6-nj0">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -672,15 +689,40 @@ Buffalo Exchange: https://www.buffaloexchange.com/ </string>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">-Here are some organizations to volunteer with! 
 
--Greenpeace, an nonprofit created to increase public awareness and mitigate environment issues
-- https://www.greenpeace.org/usa/contact/
-
--Beach Clean Ups:
-https://www.parks.ca.gov/?page_id=27144</string>
+-Greenpeace, an nonprofit created to increase public awareness and mitigate environment issues</string>
                                 <color key="textColor" red="0.3411667645" green="0.49195641280000002" blue="0.33723187449999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="23"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9yX-zf-5OR">
+                                <rect key="frame" x="55" y="366" width="288" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.83986572569999995" green="0.93654605769999999" blue="0.78805358280000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="20"/>
+                                <state key="normal" title="Click for more about Greenpeace">
+                                    <color key="titleColor" red="0.21065203530000001" green="0.3986670652" blue="0.19960190320000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="beachButton:" destination="jaK-PR-e12" eventType="touchUpInside" id="prV-OJ-h5p"/>
+                                    <action selector="buffalloDono:" destination="3xT-8X-H4A" eventType="touchUpInside" id="kC3-o9-lwg"/>
+                                    <action selector="donateBuffalo:" destination="Chv-bC-pOZ" eventType="touchUpInside" id="2Hm-uQ-XKd"/>
+                                    <action selector="greenpeaceButton:" destination="jaK-PR-e12" eventType="touchUpInside" id="3fi-5t-hy9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="riQ-kB-Z3I">
+                                <rect key="frame" x="64" y="537" width="287" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.83986572569999995" green="0.93654605769999999" blue="0.78805358280000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="20"/>
+                                <state key="normal" title="Click for info on beach clean-ups">
+                                    <color key="titleColor" red="0.21065203530000001" green="0.3986670652" blue="0.19960190320000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="beachButton:" destination="jaK-PR-e12" eventType="touchUpInside" id="zko-2W-7iC"/>
+                                    <action selector="buffalloDono:" destination="3xT-8X-H4A" eventType="touchUpInside" id="huy-W6-O1K"/>
+                                    <action selector="donateBuffalo:" destination="Chv-bC-pOZ" eventType="touchUpInside" id="OSz-mZ-JAV"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="603-jx-ghr"/>
                         <color key="backgroundColor" red="0.76465100050000001" green="0.89988368750000003" blue="0.75292223690000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -1065,7 +1107,7 @@ https://www.parks.ca.gov/?page_id=27144</string>
         <!--teenTransportation-->
         <scene sceneID="MEq-QB-uF9">
             <objects>
-                <viewController title="teenTransportation" id="GGs-TO-5fw" sceneMemberID="viewController">
+                <viewController title="teenTransportation" id="GGs-TO-5fw" customClass="TeenTransportViewController" customModule="ECOdream" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="eoq-3E-zr2">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1082,12 +1124,28 @@ https://www.parks.ca.gov/?page_id=27144</string>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">-Walk, carpool, bike, or take public transportation to school as much as you can!                             -These few acts can greatly decrease your carbon footprint.
 you.                 
--Check out this link for more information on public transportation near you: https://www.transportation.gov/public-transit
+
 </string>
                                 <color key="textColor" red="0.3411667645" green="0.49195641280000002" blue="0.33723187449999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vM6-vV-zyn">
+                                <rect key="frame" x="21" y="591" width="374" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.83986572569999995" green="0.93654605769999999" blue="0.78805358280000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="16"/>
+                                <state key="normal" title="Click for more about public transportation near you">
+                                    <color key="titleColor" red="0.21065203530000001" green="0.3986670652" blue="0.19960190320000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="adultClothing:" destination="geu-G1-T5m" eventType="touchUpInside" id="CX7-ZC-SNw"/>
+                                    <action selector="clothingBrands:" destination="C7Z-Bo-nR3" eventType="touchUpInside" id="jI2-8P-SyX"/>
+                                    <action selector="teenTransportButton:" destination="GGs-TO-5fw" eventType="touchUpInside" id="iCE-EM-QrZ"/>
+                                    <action selector="transportationButton:" destination="cL5-lI-1ZI" eventType="touchUpInside" id="4Jt-sn-n7l"/>
+                                    <action selector="transportationButton:" destination="JeE-23-M1r" eventType="touchUpInside" id="BuJ-gs-ZfH"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="FR1-81-1IR"/>
                         <color key="backgroundColor" red="0.76465100050000001" green="0.89988368750000003" blue="0.75292223690000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -1248,7 +1306,7 @@ you.
                                         <rect key="frame" x="8" y="35" width="322" height="956"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.82294094279999996" green="0.93654605769999999" blue="0.78445873379999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <mutableString key="text">Energy 
+                                        <string key="text">Energy 
 Try to turn off your faucet, fan, or other household appliances when not using them! Remember to save energy. 
 
 Recycle
@@ -1267,7 +1325,7 @@ Walk, bike, take the bus, carpool to school instead of driving! Cars emit a type
  
 Pick up after yourself/ No littering 
 Make sure to prevent as much trash on our floors by putting your waste in a trash, recycle or compost bin.
-</mutableString>
+</string>
                                         <color key="textColor" systemColor="labelColor"/>
                                         <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="22"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1414,7 +1472,7 @@ Make sure to prevent as much trash on our floors by putting your waste in a tras
         <!--teenDonate-->
         <scene sceneID="YOy-D6-5Kw">
             <objects>
-                <viewController title="teenDonate" id="3xT-8X-H4A" sceneMemberID="viewController">
+                <viewController title="teenDonate" id="3xT-8X-H4A" customClass="TeenDonationViewController" customModule="ECOdream" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="NYW-U6-cmX">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1437,17 +1495,45 @@ Buffalo Exchange: https://www.buffaloexchange.com/
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jfp-rI-KIN">
-                                <rect key="frame" x="41" y="-89" width="353" height="887"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zlX-Qx-Yc1">
+                                <rect key="frame" x="142" y="232" width="122" height="69"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">Goodwill: https://goodwillsv.org/store-locations/?category=179&amp;radius=16 
-Salvation Army: https://satruck.org/?utm_source=google_lerma&amp;utm_medium=cpc&amp;utm_campaign=arc_dropoff&amp;utm_content=text&amp;utm_term=general_brand&amp;pid=cpc:arc_dropoff::google_lerma:::::western_western:general_brand:evergreen&amp;gclid=EAIaIQobChMI-c244saZ8gIV-z6tBh237gj6EAAYASAAEgKh5fD_BwE 
-Buffalo Exchange: https://www.buffaloexchange.com/ 
-</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
-                                <color key="textColor" red="0.3411667645" green="0.49195641280000002" blue="0.33723187449999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                                <color key="backgroundColor" red="0.83986572569999995" green="0.93654605769999999" blue="0.78805358280000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="22"/>
+                                <state key="normal" title="Goodwill">
+                                    <color key="titleColor" red="0.21065203530000001" green="0.3986670652" blue="0.19960190320000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="donateGoodwill:" destination="Chv-bC-pOZ" eventType="touchUpInside" id="ZIz-SR-KRN"/>
+                                    <action selector="goodwillDono:" destination="3xT-8X-H4A" eventType="touchUpInside" id="d5W-Ol-PIj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Lz-ht-91q">
+                                <rect key="frame" x="120" y="479" width="175" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.83986572569999995" green="0.93654605769999999" blue="0.78805358280000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="20"/>
+                                <state key="normal" title="Buffalo Exchange">
+                                    <color key="titleColor" red="0.21065203530000001" green="0.3986670652" blue="0.19960190320000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="buffalloDono:" destination="3xT-8X-H4A" eventType="touchUpInside" id="nHy-ri-4aR"/>
+                                    <action selector="donateBuffalo:" destination="Chv-bC-pOZ" eventType="touchUpInside" id="uCx-Hc-Ebe"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HMo-17-daR">
+                                <rect key="frame" x="125" y="356" width="165" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.83986572569999995" green="0.93654605769999999" blue="0.78805358280000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="22"/>
+                                <state key="normal" title="Salvaiton Army">
+                                    <color key="titleColor" red="0.21065203530000001" green="0.3986670652" blue="0.19960190320000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="armyDono:" destination="3xT-8X-H4A" eventType="touchUpInside" id="mzU-CL-hAn"/>
+                                    <action selector="donateSalvation:" destination="Chv-bC-pOZ" eventType="touchUpInside" id="qG8-xe-0Zb"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="1eg-YP-nZx"/>
                         <color key="backgroundColor" red="0.76465100050000001" green="0.89988368750000003" blue="0.75292223690000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
